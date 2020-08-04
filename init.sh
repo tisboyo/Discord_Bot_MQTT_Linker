@@ -1,4 +1,7 @@
 #!/bin/bash
+cd /usr/src/app/Discord_Bot_MQTT_Linker
 
-python /usr/src/app/Discord_Bot_MQTT_Linker/main.py
+pipenv install
+
+pipenv run python main.py
 
